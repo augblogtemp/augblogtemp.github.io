@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Augusdn</title>
+  
+  <subtitle>Augusdn&#39;s IT Blog</subtitle>
+  <link href="/feed.xml" rel="self"/>
+  
+  <link href="https://augblogtemp.github.io/"/>
+  <updated>2018-02-04T12:04:20.899Z</updated>
+  <id>https://augblogtemp.github.io/</id>
+  
+  <author>
+    <name>Augustine Lee</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://augblogtemp.github.io/2018/02/04/hello-world/"/>
+    <id>https://augblogtemp.github.io/2018/02/04/hello-world/</id>
+    <published>2018-02-04T12:04:20.899Z</published>
+    <updated>2018-02-04T12:04:20.899Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://augblogtemp.github.io/2018/02/04/test/"/>
+    <id>https://augblogtemp.github.io/2018/02/04/test/</id>
+    <published>2018-02-04T11:43:41.000Z</published>
+    <updated>2018-02-04T12:04:20.903Z</updated>
+    
+    <content type="html"><![CDATA[<p>this is a test post</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;this is a test post&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo theme</title>
+    <link href="https://augblogtemp.github.io/2018/01/21/hexo-theme/"/>
+    <id>https://augblogtemp.github.io/2018/01/21/hexo-theme/</id>
+    <published>2018-01-21T08:20:33.000Z</published>
+    <updated>2018-02-04T12:04:20.899Z</updated>
+    
+    <content type="html"><![CDATA[<p> <strong><em><a href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank" rel="noopener">Hueman</a></em></strong><br><img src="hexo_example.jpg" alt="hexo_example"><br>I’ve tried variety of themes for Hexo blog, but the best one yet I found was<br>I will go through how to apply Hexo Hueman theme on the blog.</p><hr><ul><li><a href="#install">Install</a></li><li><a href="#customise">Customise</a><ul><li><a href="#menu">Menu</a></li><li><a href="#about">About</a></li><li><a href="#logo">Logo</a></li><li><a href="#theme-colour">Theme colour</a></li><li><a href="#highlight">Highlight</a></li><li><a href="#sidebar">Sidebar</a></li><li><a href="#thumbnail">Thumbnail</a></li><li><a href="#favicon">Favicon</a><ul><li><a href="#my-favicon-is-not-appearing">My favicon is not appearing</a></li></ul></li><li><a href="#social-links">Social links</a></li><li><a href="#widgets">Widgets</a></li><li><a href="#link">Link</a></li><li><a href="#search">Search</a></li><li><a href="#comment">Comment</a></li><li><a href="#share">Share</a></li><li><a href="#plugins">Plugins</a><ul><li><a href="#google_analytics">Google_analytics</a></li><li><a href="#open_graph">Open_graph</a></li></ul></li></ul></li></ul><hr><h1 id="install"><a href="#install" class="headerlink" title="install"></a>install</h1><p>Go to your blog root folder, then use the following command to download the theme.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/ppoffice/hexo-theme-hueman.git themes/hueman</span><br></pre></td></tr></table></figure></p><p>Open <code>/blog_root_folder/_config.yml</code>  with your preferred text editor and change the following line.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">old:</span><br><span class="line">    theme:</span><br><span class="line">new:</span><br><span class="line">    theme: hueman</span><br></pre></td></tr></table></figure></p><p>Go to <code>/blog_root_foler/themes/</code> and rename <code>_config.yml.example</code> into <code>_config.yml</code> then open it.</p><p>If you want to use search function (<a href="https://github.com/ppoffice/hexo-theme-hueman/wiki/Search#insight-search" target="_blank" rel="noopener">Insight search</a>)) provided by hueman theme, you have to install <code>hexo-generator-json-content</code> with <strong>npm</strong>.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -S hexo-generator-json-content</span><br></pre></td></tr></table></figure><hr><h1 id="customise"><a href="#customise" class="headerlink" title="customise"></a>customise</h1><p>You can customise your blog theme with the <code>blog_root_folder/themes/_config.yml</code>.</p><h2 id="menu"><a href="#menu" class="headerlink" title="menu"></a>menu</h2><p><img src="menu.png" alt="menu_bar" title="menu_bar"><br>You can add your own menu.<br>If you add categories in <code>front-matter</code> when you write a post, hexo will automatically add your category into menu on the bar. front-matter is located on top of the md file when you create a new post. It includes title, date, and etc.</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">menu:</span><br><span class="line">    Home: /hexo-theme-hueman/</span><br><span class="line">    About: /hexo-theme-hueman/about/index.html</span><br><span class="line">GitHub: https://github.com</span><br></pre></td></tr></table></figure><h2 id="about"><a href="#about" class="headerlink" title="about"></a>about</h2><p>You can add a page abour yourself in <code>/about/index.html</code> but there is no page available by default.If you try to access it with out creating one, you will face 404 page not found error.</p><h2 id="logo"><a href="#logo" class="headerlink" title="logo"></a>logo</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">logo:</span><br><span class="line">    width: 165</span><br><span class="line">    height: 60</span><br><span class="line">    url: images/logo-header.png</span><br></pre></td></tr></table></figure><p>You can modify url to your own logo image. Image url can be one from web, or you can save image into <code>/root_folder/source/images/</code> then access them by <code>/images/filename.png</code></p><h2 id="theme-colour"><a href="#theme-colour" class="headerlink" title="theme colour"></a>theme colour</h2><p><img src="colour.png" alt="theme_color" title="colour"><br>You can modify the colour of your blog.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme_color: &apos;#d35&apos;</span><br></pre></td></tr></table></figure></p><h2 id="highlight"><a href="#highlight" class="headerlink" title="highlight"></a>highlight</h2><p><img src="highlight.png" alt="highlight" title="highlight"><br>Highlight setting allow you to adjust colours of your code block. You can use default but you can choose one from <code>hueman/source/css/_highlight</code>.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">highlight: androidstudio</span><br></pre></td></tr></table></figure></p><h2 id="sidebar"><a href="#sidebar" class="headerlink" title="sidebar"></a>sidebar</h2><p>You can choose where your sidebar will located.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sidebar: left # options: left, right</span><br></pre></td></tr></table></figure></p><h2 id="thumbnail"><a href="#thumbnail" class="headerlink" title="thumbnail"></a>thumbnail</h2><p>If this option is true, your blog will have thumbnail for each post you make.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">thumbnail: true</span><br></pre></td></tr></table></figure></p><p>You can add customised thumbnail in front-matter part of your post. Otherwise hexo will add the first photo in the post automatically.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">title: Hello World</span><br><span class="line">date: 2013/7/13 20:46:25</span><br><span class="line">thumbnail: https://example.com/image.jpg</span><br></pre></td></tr></table></figure></p><h2 id="favicon"><a href="#favicon" class="headerlink" title="favicon"></a>favicon</h2><p>Favicon is a little icon located right next to your URL. image type can be .ico or .png<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">favicon: favicon.png</span><br></pre></td></tr></table></figure></p><h3 id="my-favicon-is-not-appearing"><a href="#my-favicon-is-not-appearing" class="headerlink" title="my favicon is not appearing"></a>my favicon is not appearing</h3><p>In most of the cases, if your favicon is not appearing after you made changes to your favicon, this occurs due to stored cache in your browser.<br>Solutions can be</p><ul><li>Delete cache of your browser</li><li>Use different browser</li><li>Use incognito mode<br>I prefer incognito mode in chrome to see changes.</li></ul><h2 id="social-links"><a href="#social-links" class="headerlink" title="social links"></a>social links</h2><p><img src="social.png" alt="social links" title="social links"><br>You can add/delete/modify sns links that you use. You can check the icon list in <strong><a href="http://fontawesome.io/icons/#brand" target="_blank" rel="noopener">FontAwesome</a></strong>.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">social_links:</span><br><span class="line">    github: https://github.com/ppoffice/hexo-theme-hueman</span><br><span class="line">    youtube: https://youtube.com</span><br></pre></td></tr></table></figure></p><h2 id="widgets"><a href="#widgets" class="headerlink" title="widgets"></a>widgets</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">widgets:</span><br><span class="line">    - recent_posts</span><br><span class="line">    - category</span><br><span class="line">    - archive</span><br><span class="line">    - tag</span><br><span class="line">    - tagcloud</span><br><span class="line">    - links</span><br></pre></td></tr></table></figure><p>You can delete them if you don’t want them on your side menu.</p><h2 id="link"><a href="#link" class="headerlink" title="link"></a>link</h2><p>You can add your own custom links at bottom of the <code>_config.yml</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Miscellaneous</span><br><span class="line">miscellaneous:</span><br><span class="line">    links:</span><br><span class="line">        Hexo: http://hexo.io</span><br><span class="line">        custom_Link: http://custom.blah.com</span><br></pre></td></tr></table></figure></p><h2 id="search"><a href="#search" class="headerlink" title="search"></a>search</h2><p><img src="search.png" alt="Insight Search" title="Insight Search"><br>To use this function, you have to install <code>hexo-generator-json-content</code> prior to activate this.<br>Also I prefer using Insight search, not sure about other two since they look like chinese search engines.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Search</span><br><span class="line">search:</span><br><span class="line">    insight: true</span><br><span class="line">    swiftype:</span><br><span class="line">    baidu: false</span><br></pre></td></tr></table></figure></p><h2 id="comment"><a href="#comment" class="headerlink" title="comment"></a>comment</h2><p><img src="comment.png" alt="Disqus" title="Disqus"><br>This theme provide multiple comment services but I use <a href="https://disqus.com/" target="_blank" rel="noopener">Disqus</a> because others are chinese services. Signup with disqus and get shorname from them, then copt and paste to <code>_config.yml</code><br><img src="disqus.png" alt="Site Identity" title="Site identity"></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Comment</span><br><span class="line">comment:</span><br><span class="line">    disqus: futurecreator # copy and paste disqus shortname</span><br><span class="line">    duoshuo:</span><br><span class="line">    youyan:</span><br></pre></td></tr></table></figure><h2 id="share"><a href="#share" class="headerlink" title="share"></a>share</h2><p>Hueman also provide share option to share the post on sns.</p><ul><li>default</li><li>addtoany</li><li>jiathis (Chinese)</li><li>bdshare (Chinese)<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># Share</span><br><span class="line">share: addtoany # options: jiathis, bdshare, addtoany, default</span><br></pre></td></tr></table></figure></li></ul><p><img src="share_default.png" alt="Default" title="Default"><br><img src="share_addtoany.png" alt="addtoany" title="addtoany"></p><h2 id="plugins"><a href="#plugins" class="headerlink" title="plugins"></a>plugins</h2><p>They also provide plugin options such as Open Graph, Google analytics and etc.</p><h3 id="google-analytics"><a href="#google-analytics" class="headerlink" title="google_analytics"></a>google_analytics</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">google_analytics: UA-66666666-6</span><br></pre></td></tr></table></figure><p><img src="google.png" alt="tracking id" title="tracking id"></p><h3 id="open-graph"><a href="#open-graph" class="headerlink" title="open_graph"></a>open_graph</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">open_graph:</span><br><span class="line">    fb_app_id:</span><br><span class="line">    fb_admins:</span><br><span class="line">    twitter_id:</span><br><span class="line">    google_plus:</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt; &lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/ppoffice/hexo-theme-hueman&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hueman&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;&lt;img src=
+      
+    
+    </summary>
+    
+      <category term="Dev" scheme="https://augblogtemp.github.io/categories/Dev/"/>
+    
+      <category term="Hexo" scheme="https://augblogtemp.github.io/categories/Dev/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://augblogtemp.github.io/tags/Hexo/"/>
+    
+      <category term="Blog" scheme="https://augblogtemp.github.io/tags/Blog/"/>
+    
+      <category term="GitHub" scheme="https://augblogtemp.github.io/tags/GitHub/"/>
+    
+      <category term="Node.js" scheme="https://augblogtemp.github.io/tags/Node-js/"/>
+    
+      <category term="Git" scheme="https://augblogtemp.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Make new blog with GitHub Page with Hexo</title>
+    <link href="https://augblogtemp.github.io/2018/01/11/Make-new-blog-with-GitHub-Page-with-Hexo/"/>
+    <id>https://augblogtemp.github.io/2018/01/11/Make-new-blog-with-GitHub-Page-with-Hexo/</id>
+    <published>2018-01-11T11:45:48.000Z</published>
+    <updated>2018-02-04T12:04:20.899Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Make-your-own-blog"><a href="#Make-your-own-blog" class="headerlink" title="Make your own blog"></a>Make your own blog</h1><hr><ul><li><a href="#Make-your-own-blog">Make your own blog</a><ul><li><a href="#Create-new-GitHub-repository">Create new GitHub repository</a><ul><li><a href="#Difference-between-User-and-Project-Page">Difference between User and Project Page</a></li></ul></li><li><a href="#Install-Hexo">Install Hexo</a></li><li><a href="#settings">Settings</a></li><li><a href="#Write-a-new-post">Write a new post</a></li></ul></li></ul><h2 id="Create-new-GitHub-repository"><a href="#Create-new-GitHub-repository" class="headerlink" title="Create new GitHub repository"></a>Create new GitHub repository</h2><p><img src="github_page.jpg" alt="github_page"><br>Firstly, we have to create new repository at GitHub to save all the static files.<br>Get on to <strong><em><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></em></strong> and click on <code>New Repository</code></p><h3 id="Difference-between-User-and-Project-Page"><a href="#Difference-between-User-and-Project-Page" class="headerlink" title="Difference between User and Project Page"></a>Difference between User and Project Page</h3><table><thead><tr><th></th><th>USER</th><th>Project</th></tr></thead><tbody><tr><td>URL</td><td><code>username.github.io</code></td><td><code>username.github.io/repository_name</code></td></tr></tbody></table><p>Unless you are willing to make a sub directory under your root domain <code>username.github.io/example</code>, name your repository with <code>username.github.io</code> or <code>username.github.com</code>.<br><strong><em>But both of them will have domain <code>username.github.io</code></em></strong></p><hr><h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><p>You can check out the <strong><em><a href="/2018/01/11/Hexo-blog-framework/">older post</a></em></strong> to install Hexo</p><hr><h2 id="Settings"><a href="#Settings" class="headerlink" title="Settings"></a>Settings</h2><p>You can manage settings of your blog with <code>_config.yml</code> file.<br>But at the moment, lets set up URL and Deployment first.<br><figure class="highlight bash"><figcaption><span>_config.yaml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Site</span></span><br><span class="line">title: Augusdn<span class="comment"># Title of your blog</span></span><br><span class="line">subtitle:  Blog of my life <span class="comment"># Sub title</span></span><br><span class="line">description: Blog description <span class="comment"># Blog description</span></span><br><span class="line">author: Augusdn <span class="comment"># Name of author</span></span><br><span class="line">language: en <span class="comment"># default language of theme, most of the themes support multi language</span></span><br><span class="line">timezone: Australia/Sydney <span class="comment"># Set Timezone (https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># URL</span></span><br><span class="line">url: https://user_name.github.io/ <span class="comment"># Your github page address</span></span><br><span class="line">root: / <span class="comment"># default by / but if you have sub dir, you can choose where it should set root as</span></span><br><span class="line">permalink: :year/:month/:day/:title/ <span class="comment"># default URL for new post. ex) 2018/01/01/new_post</span></span><br><span class="line">permalink_defaults:</span><br><span class="line"></span><br><span class="line"><span class="comment"># Deployment</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/user_name/user_name.github.io.git</span><br></pre></td></tr></table></figure></p><p>Now, lets try generate static files and push it to GitHub.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure><p>In most of the cases, you can write your post or draft and check on your local server before you push it to remote.<br>After push, you can check your blog at <code>user_name.github.io</code>.<br>In my situation, it will be <a href="https://augusdn.github.io" target="_blank" rel="noopener">augusdn.github.io</a></p><hr><h2 id="Write-a-new-post"><a href="#Write-a-new-post" class="headerlink" title="Write a new post"></a>Write a new post</h2><p>Lets make a new post with following command<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new post <span class="string">'post name'</span></span><br></pre></td></tr></table></figure></p><p>You can check this post file in <code>[blog_folder]/sources/_posts</code><br>Edit this file as you like, with Markdown Editor, then check with local server.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></p><p>Then check your new post at <a href="localhost:4000" target="_blank" rel="noopener">localhost:4000</a><br>Confirm your posts and generate, then push it to github.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Make-your-own-blog&quot;&gt;&lt;a href=&quot;#Make-your-own-blog&quot; class=&quot;headerlink&quot; title=&quot;Make your own blog&quot;&gt;&lt;/a&gt;Make your own blog&lt;/h1&gt;&lt;hr&gt;
+&lt;ul&gt;
+      
+    
+    </summary>
+    
+      <category term="Dev" scheme="https://augblogtemp.github.io/categories/Dev/"/>
+    
+      <category term="Hexo" scheme="https://augblogtemp.github.io/categories/Dev/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://augblogtemp.github.io/tags/Hexo/"/>
+    
+      <category term="Blog" scheme="https://augblogtemp.github.io/tags/Blog/"/>
+    
+      <category term="GitHub" scheme="https://augblogtemp.github.io/tags/GitHub/"/>
+    
+      <category term="Node.js" scheme="https://augblogtemp.github.io/tags/Node-js/"/>
+    
+      <category term="Git" scheme="https://augblogtemp.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>How to fix Deployer not found: git</title>
+    <link href="https://augblogtemp.github.io/2018/01/11/How-to-fix-Deployer-not-found-git/"/>
+    <id>https://augblogtemp.github.io/2018/01/11/How-to-fix-Deployer-not-found-git/</id>
+    <published>2018-01-11T11:38:51.000Z</published>
+    <updated>2018-02-04T12:04:20.899Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="ERROR-Deployer-not-found-git"><a href="#ERROR-Deployer-not-found-git" class="headerlink" title="ERROR Deployer not found: git"></a>ERROR Deployer not found: git</h1><p>This error occurs, if you don’t install <em><code>hexo-deployer-git</code></em> but attempt to deploy.</p><hr><h1 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><p>Then open <code>_config.yml</code>, fix <code>#deployment</code><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/deployment.html</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/your_github_id/your_github_id.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;ERROR-Deployer-not-found-git&quot;&gt;&lt;a href=&quot;#ERROR-Deployer-not-found-git&quot; class=&quot;headerlink&quot; title=&quot;ERROR Deployer not found: git&quot;&gt;&lt;/a&gt;E
+      
+    
+    </summary>
+    
+      <category term="Dev" scheme="https://augblogtemp.github.io/categories/Dev/"/>
+    
+      <category term="Hexo" scheme="https://augblogtemp.github.io/categories/Dev/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://augblogtemp.github.io/tags/Hexo/"/>
+    
+      <category term="Blog" scheme="https://augblogtemp.github.io/tags/Blog/"/>
+    
+      <category term="GitHub" scheme="https://augblogtemp.github.io/tags/GitHub/"/>
+    
+      <category term="Node.js" scheme="https://augblogtemp.github.io/tags/Node-js/"/>
+    
+      <category term="Git" scheme="https://augblogtemp.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo, blog framework</title>
+    <link href="https://augblogtemp.github.io/2018/01/11/Hexo-blog-framework/"/>
+    <id>https://augblogtemp.github.io/2018/01/11/Hexo-blog-framework/</id>
+    <published>2018-01-11T10:34:23.000Z</published>
+    <updated>2018-02-04T12:04:20.899Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="hexo.JPG" alt="hexo"></p><h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><p><strong><em><a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a></em></strong> is a fast, simple and powerful blog framework based on Node.js.</p><ul><li><a href="#Hexo">Hexo</a><ul><li><a href="#Installation">Installation</a><ul><li><a href="#Requirements">Requirements</a><ul><li><a href="#Install-Git">Install Git</a></li><li><a href="#Install-Nodejs">Install Node.js</a></li><li><a href="#Install-Hexo">Install Hexo</a></li></ul></li></ul></li><li><a href="#Hexo-Setup">Hexo setup</a></li><li><a href="#Run">Run</a></li><li><a href="#Commands">Commands</a></li></ul></li></ul><p>This blog is written in <strong>Markdown</strong>, using <strong>Hexo</strong> and <strong>GitHub Pages</strong> due to following reasons.</p><ul><li>Support <a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="noopener"><strong>Markdown</strong></a>, allow you to post easily.</li><li><strong>Free</strong> hosting from <strong>GitHub Pages</strong>.</li><li>Users are able to use a wide variety of <strong>Themes</strong>.</li></ul><hr><h2 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h2><h3 id="Requirements"><a href="#Requirements" class="headerlink" title="Requirements"></a>Requirements</h3><p>Hexo requires couple of things installed on your machine to run.</p><ul><li><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a></li><li><a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a></li></ul><p>If you already installed these, you can skip to <a href="#Install-Hexo">Hexo installation</a></p><h4 id="Install-Git"><a href="#Install-Git" class="headerlink" title="Install Git"></a>Install Git</h4><ul><li>Windows: Download &amp; install <a href="https://git-scm.com/download/win" target="_blank" rel="noopener">git</a>.</li><li>Mac: Install it with <a href="http://mxcl.github.com/homebrew/" target="_blank" rel="noopener">Homebrew</a>, <a href="http://www.macports.org/" target="_blank" rel="noopener">MacPorts</a> or <a href="http://sourceforge.net/projects/git-osx-installer/" target="_blank" rel="noopener">installer</a>.</li><li>Linux (Ubuntu, Debian): <code>sudo apt-get install git-core</code></li><li>Linux (Fedora, Red Hat, CentOS): <code>sudo yum install git-core</code></li></ul><h4 id="Install-Node-js"><a href="#Install-Node-js" class="headerlink" title="Install Node.js"></a>Install Node.js</h4><p>The best way to install Node.js is with <a href="https://github.com/creationix/nvm" target="_blank" rel="noopener">Node Version Manager</a>.<br>Thankfully the creators of nvm provide a simple script that automatically installs nvm:</p><p>cURL:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash</span><br></pre></td></tr></table></figure></p><p>Wget:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash</span><br></pre></td></tr></table></figure></p><p>Once nvm is installed, restart the terminal and run the following command to install Node.js:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ nvm install stable</span><br></pre></td></tr></table></figure></p><p>Alternatively, download and run the <a href="http://nodejs.org/" target="_blank" rel="noopener">installer</a>.</p><h4 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h4><p>Once all the requirements are installed, you can install Hexo with npm:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p><hr><h2 id="Hexo-setup"><a href="#Hexo-setup" class="headerlink" title="Hexo setup"></a>Hexo setup</h2><p>After installing <strong><em>Hexo</em></strong>, you can set up a new folder for your blog.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;blog_folder_name&gt;</span><br><span class="line">$ <span class="built_in">cd</span> &lt;blog_folder_name&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure></p><p><strong>Result:</strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml   : configuration file <span class="keyword">for</span> blog</span><br><span class="line">├── package.json  : list of packages <span class="keyword">in</span> json format</span><br><span class="line">├── scaffolds   : scaffolds folder make you able to <span class="built_in">set</span> up initial seed <span class="keyword">for</span> post or drafts</span><br><span class="line">├── <span class="built_in">source</span>   : <span class="built_in">source</span> folder to store markdown files and all other files <span class="keyword">for</span> blogging</span><br><span class="line">|   ├── _drafts </span><br><span class="line">|   └── _posts </span><br><span class="line">└── themes   : folder to store themes, hexo generate blog based on files <span class="keyword">in</span> <span class="built_in">source</span>, and format them with themes</span><br></pre></td></tr></table></figure></p><hr><h2 id="Run"><a href="#Run" class="headerlink" title="Run"></a>Run</h2><p>After installing, you can run local server to test <strong><em>Hexo</em></strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></p><p>You can check your server at <code>localhost:4000</code> (default port: 4000)</p><hr><h2 id="Commands"><a href="#Commands" class="headerlink" title="Commands"></a>Commands</h2><h3 id="New-post"><a href="#New-post" class="headerlink" title="New post"></a>New post</h3><p>Create a new post<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure></p><h3 id="Generate"><a href="#Generate" class="headerlink" title="Generate"></a>Generate</h3><p>Generate static files<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></p><p>OR<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>OR<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure></p><h3 id="More-Commands"><a href="#More-Commands" class="headerlink" title="More Commands"></a>More Commands</h3><p>You can fine more commands in this <a href="https://hexo.io/docs/commands.html" target="_blank" rel="noopener">Link</a>.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;hexo.JPG&quot; alt=&quot;hexo&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;headerlink&quot; title=&quot;Hexo&quot;&gt;&lt;/a&gt;Hexo&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;ht
+      
+    
+    </summary>
+    
+      <category term="Dev" scheme="https://augblogtemp.github.io/categories/Dev/"/>
+    
+      <category term="Hexo" scheme="https://augblogtemp.github.io/categories/Dev/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://augblogtemp.github.io/tags/Hexo/"/>
+    
+      <category term="Blog" scheme="https://augblogtemp.github.io/tags/Blog/"/>
+    
+      <category term="GitHub" scheme="https://augblogtemp.github.io/tags/GitHub/"/>
+    
+      <category term="Node.js" scheme="https://augblogtemp.github.io/tags/Node-js/"/>
+    
+      <category term="Git" scheme="https://augblogtemp.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTC Vive Unboxing</title>
+    <link href="https://augblogtemp.github.io/2016/07/21/HTC-Vive/"/>
+    <id>https://augblogtemp.github.io/2016/07/21/HTC-Vive/</id>
+    <published>2016-07-21T11:15:39.000Z</published>
+    <updated>2018-02-04T12:04:20.895Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><a href="#About-HTC-Vive-Steam-VR">About HTC Vive</a><ul><li><a href="#HTC-VIVE-Postage-Box">Postage Box</a></li><li><a href="#Inside-the-box">Inside the box</a><ul><li><a href="#Overview-of-Manual">Manual</a></li><li><a href="#HTC-VIVE-Front-View">Front View</a></li><li><a href="#VR-Components">VR Components</a></li><li><a href="#VIVE-Controller-and-Base-station">VIVE Controller and Base station</a></li><li><a href="#Controller-Charger-x2">Controller Charger</a></li><li><a href="#Base-station-power-cable-and-sync-cable-with-stand">Cables and stand</a></li></ul></li><li><a href="#Overall">Overall</a></li></ul></li></ul><h1 id="About-HTC-Vive-Steam-VR"><a href="#About-HTC-Vive-Steam-VR" class="headerlink" title="About HTC Vive (Steam VR):"></a>About HTC Vive (Steam VR):</h1><blockquote><p>HTC Vive is a virtual reality headset developed by HTC and Valve Corporation, released on 5 April 2016. This headset is designed to utilize “room scale” technology to turn a room into 3D space via sensors, with the virtual world allowing the user to navigate naturally, with the ability to walk around and use motion tracked handheld controllers to vividly manipulate objects, interact with precision, communicate and experience immersive environments</p><footer><strong>Wikipedia</strong><cite><a href="https://en.wikipedia.org/wiki/HTC_Vive" target="_blank" rel="noopener">HTC VIVE</a></cite></footer></blockquote><p>I have ordered HTC VIVE in Australia, where it is not available yet locally. It seems like stock for VIVE is not enough for demands so had to wait for few weeks after the order was completed. Interesting thing about the item was it came from China not from US.</p><h2 id="HTC-VIVE-Postage-Box"><a href="#HTC-VIVE-Postage-Box" class="headerlink" title="HTC VIVE Postage Box"></a>HTC VIVE Postage Box</h2><hr><p><img src="postbox.jpg" alt="HTC VIVE Postage Box" title="HTC VIVE Postage Box"></p><p><img src="postbox_open.jpg" alt="Styrofoam on the side to prevent damage" title="Styrofoam on the side to prevent damage"></p><p><img src="vivebox.jpg" alt="HTC VIVE Steam VR Box" title="HTC VIVE Steam VR Box"></p><hr><p>As I open the box, there was black box with smooth surface covered in plastic bag. On the side, there was a Styrofoam to hold the box and prevent the external force to damage the item. Box showing Steam VR Logo and HTC VIVE with image of actual VR.</p><h2 id="Inside-the-box"><a href="#Inside-the-box" class="headerlink" title="Inside the box"></a>Inside the box</h2><p> <img src="vr_inside.jpg" alt="Inside of box" title="Inside of box"><br>This picture is showing how it looks inside as I open the box. On the left-top, there is Get Started manual. Below the manual there was VIVE controller placed in sponge. On the right there was HTC VIVE covered in plastic bag.</p><h3 id="Overview-of-Manual"><a href="#Overview-of-Manual" class="headerlink" title="Overview of Manual"></a>Overview of Manual</h3><p><img src="manual.jpg" alt="Overview of Manual" title="Overview of Manual"><br>Image on top is a manual of how to use VR.</p><p><img src="parts.jpg" alt="parts" title="parts"><br>This image is close up view on list of parts on the manual. There are A-N items, which are label for each component. This label is has a tag below in text with different languages.</p><p>A. Base station x 2<br>B. Sync cable (optional)<br>C. Base station power adapter x 2<br>D. Mounting kit<br>E. Link Box<br>F. Link box mounting pad<br>G. Link box power adapter<br>H. HDMI cable<br>I. USB cable<br>J. Earbuds<br>K. Alternate face cushion (narrow)<br>L. Cleaning cloth<br>M. Documentation<br>N. Headset with 3-in-1 cable and audio cable<br>O. Controller (with lanyard) x 2<br>P. Micro-USB charger x 2</p><h3 id="HTC-VIVE-Front-View"><a href="#HTC-VIVE-Front-View" class="headerlink" title="HTC VIVE Front View"></a>HTC VIVE Front View</h3><p><img src="frontview.jpg" alt="HTC VIVE Front View" title="HTC VIVE Front View"></p><h3 id="VR-Components"><a href="#VR-Components" class="headerlink" title="VR Components"></a>VR Components</h3><p><img src="components.jpg" alt="components" title="components"></p><p>Warranty document and cleaning cloth on left-top, VR-Desktop connector, alternate face cushion, Power cable for VR-Desktop connector, earbud, HDMI cable and USB male-male cable in clock wise.</p><h3 id="VIVE-Controller-and-Base-station"><a href="#VIVE-Controller-and-Base-station" class="headerlink" title="VIVE Controller and Base station"></a>VIVE Controller and Base station</h3><p><img src="controller.jpg" alt="controller" title="controller"></p><h3 id="Controller-Charger-x2"><a href="#Controller-Charger-x2" class="headerlink" title="Controller Charger x2"></a>Controller Charger x2</h3><p><img src="charger.jpg" alt="charger" title="Controller Charger x2"><br>Two VIVE controllers and two base station placed in sponge container.</p><p>Below the controller, there is a box containing two charger. Chargers seems same with most of the android chargers and when controllers are plugged in, they light up with RED or Green Colour depends on their battery level.</p><p>Image below shows the Power cable for base station and stand for holding the base station. Also there is a document for how to install base station.</p><p>I forgot to take off the plastic cover for base stand but every other parts were also came with plastic cover too.</p><h3 id="Base-station-power-cable-and-sync-cable-with-stand"><a href="#Base-station-power-cable-and-sync-cable-with-stand" class="headerlink" title="Base station power cable and sync cable with stand"></a>Base station power cable and sync cable with stand</h3><p><img src="base_station.jpg" alt="base_statiton" title="base_station"></p><h2 id="Overall"><a href="#Overall" class="headerlink" title="Overall"></a>Overall</h2><p>HTC VIVE a.k.a. Steam VR has great box components and really looking forward to use this with new desktop we have ordered. I will post the installing guide and also few reviews after I use this awesome looking VR.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#About-HTC-Vive-Steam-VR&quot;&gt;About HTC Vive&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#HTC-VIVE-Postage-Box&quot;&gt;Postage Box&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#In
+      
+    
+    </summary>
+    
+      <category term="Technology" scheme="https://augblogtemp.github.io/categories/Technology/"/>
+    
+      <category term="Unboxing" scheme="https://augblogtemp.github.io/categories/Technology/Unboxing/"/>
+    
+    
+      <category term="Steam" scheme="https://augblogtemp.github.io/tags/Steam/"/>
+    
+      <category term="Steam VR" scheme="https://augblogtemp.github.io/tags/Steam-VR/"/>
+    
+      <category term="VR" scheme="https://augblogtemp.github.io/tags/VR/"/>
+    
+      <category term="HTC-VIVE" scheme="https://augblogtemp.github.io/tags/HTC-VIVE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://augblogtemp.github.io/2016/03/22/Doomsday-Algorithm/"/>
+    <id>https://augblogtemp.github.io/2016/03/22/Doomsday-Algorithm/</id>
+    <published>2016-03-22T07:02:42.000Z</published>
+    <updated>2018-02-04T12:04:20.895Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="둠스데이-알고리즘-C-언어"><a href="#둠스데이-알고리즘-C-언어" class="headerlink" title="둠스데이 알고리즘 (C 언어)"></a>둠스데이 알고리즘 (C 언어)</h1><ul><li><a href="#Doomsday-algorithm-in-C-language">Doomsday algorithm in C language</a><ul><li><a href="#What-is-doomsday">What is doomsday?</a></li><li><a href="#Applying-doomsday-algorithm">Applying doomsday algorithm</a></li><li><a href="#How-to-calculate-doomsday-of-the-year">How to calculate doomsday of the year</a></li><li><a href="#Calculate-a-given-date">Calculate a given date</a></li><li><a href="#Download-sample-C-file">Download sample C file</a></li></ul></li></ul><h2 id="둠스데이란"><a href="#둠스데이란" class="headerlink" title="둠스데이란?"></a>둠스데이란?</h2><blockquote><p>둠스데이 알고리즘(Doomsday algorithm)은 존 호턴 콘웨이가 발명한 알고리즘으로, 임의의 날짜에 해당하는 요일을 쉽게 구하는 데에 쓰인다.<br>한 해에서 다음 날짜는 언제나 요일이 같다.</p><footer><strong>Wikipedia</strong><cite><a href="https://ko.wikipedia.org/wiki/%EB%91%A0%EC%8A%A4%EB%8D%B0%EC%9D%B4_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98" target="_blank" rel="noopener">ko.wikipedia.org/wiki/%EB%91%A0%EC%8A%A4%EB%8D%B0%EC%9D%B4_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98</a></cite></footer></blockquote><h2 id="둠스데이-알고리즘-적용하기"><a href="#둠스데이-알고리즘-적용하기" class="headerlink" title="둠스데이 알고리즘 적용하기"></a>둠스데이 알고리즘 적용하기</h2><ol><li>해당 세기의 <strong><code>&quot;기준일&quot;</code></strong> 을 찾습니다.</li><li>기준일을 이용해서 해당 년도의 둠스데이를 계산합니다.</li><li>항상 둠스데이를 만족하는 날짜들중 (4/4, 6/6, 8/8 등) 찾고자 하는 날짜와 가장 가까운 날을 고르고, 해당 날짜와 찾고자 하는 날짜의 차를 구해 모듈로 연산을 합니다 (mod 7, C 언어에선 %7 해서 나오는 값). 해당 값을 세기 기준을에 더하면 날짜가 구해집니다.<br><img src="Doomsday.png" alt="Doomsday_calendar"><br><img src="dooms.png" alt="Doomsday_Memorable_Date"></li></ol><h2 id="해당-년도의-둠스데이-계산하기"><a href="#해당-년도의-둠스데이-계산하기" class="headerlink" title="해당 년도의 둠스데이 계산하기"></a>해당 년도의 둠스데이 계산하기</h2><p>다음 세기들은 해당 기준일을 가집니다.<br>1800~1899 는 <strong>금요일</strong><br>1900~1999 is <strong>수요일</strong><br>2000~2099 is <strong>화요일</strong><br>2100~2199 is <strong>일요일</strong><br>그리고 그 이후 년도들은 금요일, 수요일, 화요일, 일요일 순으로 계속 반복됩니다.</p><p>해당 기준일을 가지고 원하는 년도의 둠스데이를 알아봅시다.<br>예를들어 <strong>2016년 3월 24일</strong> 의 날짜를 구해보겠습니다.</p><ol><li>해당 년도의 끝 2자리 수를 12로 나눕니다. 2016년도는 16을 12로 나눠야 겠죠.<br><code>16을 12로 나누면 1과 나머지 4가 남죠. 여기서 몫을 a 로 나머지를 b라고 하겠습니다.</code></li><li>Divide last two digits of Year with 12 - YYYY -&gt; YY<strong>YY</strong> / <strong>12</strong> -&gt; a…b<br><code>2016-&gt; 16/12 = 1 ... 4 as remainder ( a is 1 and b is 4 )</code></li><li>Divide the remainder with 4 -&gt; <strong><code>b/4</code></strong><br><code>4/4 = 1 (c is 1)</code></li><li>Anchor day can be calculated with list above with YYYY and add a+b+c on the anchor day.<br><code>2016 will be between 2000~2099, Tuesday.</code><br><code>a+b+c = 1 + 4 + 1 = 6</code><br><code>Now add result from 2 on Tuesday. Which will be Tuesday + 6 = Monday.</code><br><code>2016&#39;s doomsday is Monday</code></li></ol><hr><h2 id="Calculate-a-given-date"><a href="#Calculate-a-given-date" class="headerlink" title="Calculate a given date"></a>Calculate a given date</h2><p>Now we know 2016’s doomsday is on <strong>Monday</strong>. Then we can simply calculate the difference in date between doomsday and the day we want to know, to calculate the day.</p><p>Using the example above, 2016 03 24, we know 2016’s doomsday is on Monday and I will use February 29th for my doomsday since it’s a leap year.</p><p>Days until February 29th are 60 days and days until 24th of March is 84 days. Now we can calculate the day with the function I wrote on the program.</p><p><code>dayOfWeek = ((doomsday + DAYS_PER_WEEK) - (DAYS_PER_WEEK + ((daysToEndOfFeb - daysToInputDay) % DAYS_PER_WEEK))) % DAYS_PER_WEEK;</code></p><p> This will give me a day of week with leap year case.</p><p> <code>dayOfWeek = ((4 + 7) - (7 + ((60 - 84) % 7))) % 7;</code><br><code>= ((11) - (7 + (-3))) % 7;</code><br><code>= 7 % 7</code><br><code>= 0</code><br><code>= Thursday</code></p><hr><h2 id="Download-sample-C-file"><a href="#Download-sample-C-file" class="headerlink" title="Download sample C file"></a>Download sample C file</h2><p>You can download sample C file from <strong><em><a href="https://github.com/augusdn/C-Programming/blob/master/doomsday.c" target="_blank" rel="noopener">HERE</a></em></strong></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;둠스데이-알고리즘-C-언어&quot;&gt;&lt;a href=&quot;#둠스데이-알고리즘-C-언어&quot; class=&quot;headerlink&quot; title=&quot;둠스데이 알고리즘 (C 언어)&quot;&gt;&lt;/a&gt;둠스데이 알고리즘 (C 언어)&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#Do
+      
+    
+    </summary>
+    
+      <category term="Dev" scheme="https://augblogtemp.github.io/categories/Dev/"/>
+    
+      <category term="C" scheme="https://augblogtemp.github.io/categories/Dev/C/"/>
+    
+    
+      <category term="C 언어" scheme="https://augblogtemp.github.io/tags/C-%EC%96%B8%EC%96%B4/"/>
+    
+      <category term="프로그래밍" scheme="https://augblogtemp.github.io/tags/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/"/>
+    
+      <category term="알고리즘" scheme="https://augblogtemp.github.io/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/"/>
+    
+      <category term="둠스데이" scheme="https://augblogtemp.github.io/tags/%EB%91%A0%EC%8A%A4%EB%8D%B0%EC%9D%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>putty and xming</title>
+    <link href="https://augblogtemp.github.io/2016/03/08/putty-and-xming/"/>
+    <id>https://augblogtemp.github.io/2016/03/08/putty-and-xming/</id>
+    <published>2016-03-08T22:45:21.000Z</published>
+    <updated>2018-02-04T12:04:20.903Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Tool-to-access-SSH-remotely"><a href="#Tool-to-access-SSH-remotely" class="headerlink" title="Tool to access SSH remotely"></a>Tool to access SSH remotely</h1><p><img src="putty.png" alt="putty"></p><hr><ul><li><a href="#Tool-to-access-SSH-remotely">Tool to access SSH remotely</a><ul><li><a href="#PuTTY">PuTTY</a><ul><li><a href="#Download-PuTTY">Download PuTTY</a></li></ul></li><li><a href="#Xming">Xming</a><ul><li><a href="#Download-Xming">Download Xming</a></li><li><a href="#Setup-Xming-with-PuTTY">Setup Xming with PuTTY</a></li></ul></li></ul></li></ul><hr><h2 id="PuTTY"><a href="#PuTTY" class="headerlink" title="PuTTY"></a>PuTTY</h2><blockquote><p>PuTTY is an SSH and telnet client, developed originally by Simon Tatham for the Windows platform. PuTTY is open source software that is available with source code and is developed and supported by a group of volunteers.</p><footer><strong>PuTTY.org</strong><cite><a href="http://www.putty.org/" target="_blank" rel="noopener">www.putty.org</a></cite></footer></blockquote><h3 id="Download-PuTTY"><a href="#Download-PuTTY" class="headerlink" title="Download PuTTY"></a>Download PuTTY</h3><p>You can download latest PuTTY <strong><a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank" rel="noopener">HERE</a></strong>.<br>Depends on which Windows version you use, there are 32-bit and 64-bit versions available.<br>If you are not sure about which version you need to download, Read this <strong><a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-32bit-64bit" target="_blank" rel="noopener">FAQ entry</a></strong>.</p><hr><h2 id="Xming"><a href="#Xming" class="headerlink" title="Xming"></a>Xming</h2><blockquote><p>Xming is the leading X Window System Server for Microsoft Windows 8/7/Vista/XP (+ server 2012/2008/2003). It is fully featured, small and fast, simple to install and because it is standalone native Microsoft Windows, easily made portable (not needing a machine-specific installation).</p><footer><strong>Xming</strong><cite><a href="https://sourceforge.net/projects/xming/" target="_blank" rel="noopener">sourceforge.net/projects/xming</a></cite></footer></blockquote><p>Basically, Xming is a software to enable your terminal to have graphical output on your local machine.<br>If you don’t set up Xming and access remotely with PuTTY, you won’t be able to use graphical softwares.</p><h3 id="Download-Xming"><a href="#Download-Xming" class="headerlink" title="Download Xming"></a>Download Xming</h3><p>You can download Xming <strong><a href="https://sourceforge.net/projects/xming/" target="_blank" rel="noopener">HERE</a></strong></p><h3 id="Setup-Xming-with-PuTTY"><a href="#Setup-Xming-with-PuTTY" class="headerlink" title="Setup Xming with PuTTY"></a>Setup Xming with PuTTY</h3><p>Run PuTTY, go under Connection-&gt;SSH-&gt;X11.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Connection</span><br><span class="line">├── ...</span><br><span class="line">├── SSH</span><br><span class="line">|   ├── ...</span><br><span class="line">|   ├── X11  &lt;---</span><br><span class="line">|   ├── ...</span><br><span class="line">├── ...</span><br></pre></td></tr></table></figure></p><p><img src="setup.png" alt="setup"><br><strong>Tick</strong> <code>&quot;Enable X11 forwarding&quot;</code> then set the <code>&quot;X display location&quot;</code> to <code>localhost:0</code></p><hr>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Tool-to-access-SSH-remotely&quot;&gt;&lt;a href=&quot;#Tool-to-access-SSH-remotely&quot; class=&quot;headerlink&quot; title=&quot;Tool to access SSH remotely&quot;&gt;&lt;/a&gt;Tool 
+      
+    
+    </summary>
+    
+      <category term="Dev" scheme="https://augblogtemp.github.io/categories/Dev/"/>
+    
+      <category term="Tools" scheme="https://augblogtemp.github.io/categories/Dev/Tools/"/>
+    
+    
+      <category term="Programming" scheme="https://augblogtemp.github.io/tags/Programming/"/>
+    
+      <category term="SSH" scheme="https://augblogtemp.github.io/tags/SSH/"/>
+    
+      <category term="putty" scheme="https://augblogtemp.github.io/tags/putty/"/>
+    
+      <category term="xming" scheme="https://augblogtemp.github.io/tags/xming/"/>
+    
+      <category term="telnet" scheme="https://augblogtemp.github.io/tags/telnet/"/>
+    
+  </entry>
+  
+</feed>

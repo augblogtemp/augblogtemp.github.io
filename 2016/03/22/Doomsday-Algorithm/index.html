@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Augusdn</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <meta name="keywords" content="C 언어,프로그래밍,알고리즘,둠스데이" />
+    
+
+    
+        <meta name="description" content="둠스데이 알고리즘 (C 언어) Doomsday algorithm in C language What is doomsday? Applying doomsday algorithm How to calculate doomsday of the year Calculate a given date Download sample C file    둠스데이란?둠스데이 알고리즘(D">
+<meta name="keywords" content="C 언어,프로그래밍,알고리즘,둠스데이">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Augusdn">
+<meta property="og:url" content="https://augblogtemp.github.io/2016/03/22/Doomsday-Algorithm/index.html">
+<meta property="og:site_name" content="Augusdn">
+<meta property="og:description" content="둠스데이 알고리즘 (C 언어) Doomsday algorithm in C language What is doomsday? Applying doomsday algorithm How to calculate doomsday of the year Calculate a given date Download sample C file    둠스데이란?둠스데이 알고리즘(D">
+<meta property="og:locale" content="ko">
+<meta property="og:image" content="https://augblogtemp.github.io/images/thumbnail/dooms.png">
+<meta property="og:updated_time" content="2018-02-04T12:04:20.895Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Augusdn">
+<meta name="twitter:description" content="둠스데이 알고리즘 (C 언어) Doomsday algorithm in C language What is doomsday? Applying doomsday algorithm How to calculate doomsday of the year Calculate a given date Download sample C file    둠스데이란?둠스데이 알고리즘(D">
+<meta name="twitter:image" content="https://augblogtemp.github.io/images/thumbnail/dooms.png">
+    
+
+
+    
+    <link rel="canonical" href="https://augblogtemp.github.io/2016/03/22/doomsday-algorithm/"/>
+
+
+    
+
+    
+        <link rel="icon" href="https://github.com/favicon.ico" />
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/titillium-web/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/libs/jquery/2.0.3/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
+
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                        <h2 class="subtitle-wrap">
+                            <p class="subtitle">Augusdn&#39;s IT Blog</p>
+                        </h2>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                
+                                    <li class="main-nav-list-item" >
+                                        <a class="main-nav-list-link" href="/">홈</a>
+                                    </li>
+                                
+                            
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Dev/">Dev</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Dev/C/">C</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Dev/Hexo/">Hexo</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Dev/Tools/">Tools</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Technology/">Technology</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Technology/Unboxing/">Unboxing</a></li></ul></li></ul>
+                                    
+                                
+                                    <li class="main-nav-list-item" >
+                                        <a class="main-nav-list-link" href="/about/index.html">About</a>
+                                    </li>
+                                
+                            
+                                
+                                    <li class="main-nav-list-item" >
+                                        <a class="main-nav-list-link" href="/../">Blog in English</a>
+                                    </li>
+                                
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="검색" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '포스트',
+            PAGES: 'Pages',
+            CATEGORIES: '카테고리',
+            TAGS: '태그',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    <a class="page-title-link" href="/categories/Dev/">Dev</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/Dev/C/">C</a>
+    </h1>
+</div>
+                        <div class="main-body-content">
+                            <article id="post-Doomsday-Algorithm" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+        <a href="/2016/03/22/Doomsday-Algorithm/" class="article-date">
+            <time datetime="2016-03-22T07:02:42.000Z" itemprop="datePublished">2016-03-22</time>
+        </a>
+    </div>
+
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/C-언어/">C 언어</a>, <a class="tag-link" href="/tags/둠스데이/">둠스데이</a>, <a class="tag-link" href="/tags/알고리즘/">알고리즘</a>, <a class="tag-link" href="/tags/프로그래밍/">프로그래밍</a>
+    </div>
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <h1 id="둠스데이-알고리즘-C-언어"><a href="#둠스데이-알고리즘-C-언어" class="headerlink" title="둠스데이 알고리즘 (C 언어)"></a>둠스데이 알고리즘 (C 언어)</h1><ul>
+<li><a href="#Doomsday-algorithm-in-C-language">Doomsday algorithm in C language</a><ul>
+<li><a href="#What-is-doomsday">What is doomsday?</a></li>
+<li><a href="#Applying-doomsday-algorithm">Applying doomsday algorithm</a></li>
+<li><a href="#How-to-calculate-doomsday-of-the-year">How to calculate doomsday of the year</a></li>
+<li><a href="#Calculate-a-given-date">Calculate a given date</a></li>
+<li><a href="#Download-sample-C-file">Download sample C file</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="둠스데이란"><a href="#둠스데이란" class="headerlink" title="둠스데이란?"></a>둠스데이란?</h2><blockquote><p>둠스데이 알고리즘(Doomsday algorithm)은 존 호턴 콘웨이가 발명한 알고리즘으로, 임의의 날짜에 해당하는 요일을 쉽게 구하는 데에 쓰인다.<br>한 해에서 다음 날짜는 언제나 요일이 같다.</p>
+<footer><strong>Wikipedia</strong><cite><a href="https://ko.wikipedia.org/wiki/%EB%91%A0%EC%8A%A4%EB%8D%B0%EC%9D%B4_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98" target="_blank" rel="noopener">ko.wikipedia.org/wiki/%EB%91%A0%EC%8A%A4%EB%8D%B0%EC%9D%B4_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98</a></cite></footer></blockquote>
+<h2 id="둠스데이-알고리즘-적용하기"><a href="#둠스데이-알고리즘-적용하기" class="headerlink" title="둠스데이 알고리즘 적용하기"></a>둠스데이 알고리즘 적용하기</h2><ol>
+<li>해당 세기의 <strong><code>&quot;기준일&quot;</code></strong> 을 찾습니다.</li>
+<li>기준일을 이용해서 해당 년도의 둠스데이를 계산합니다.</li>
+<li>항상 둠스데이를 만족하는 날짜들중 (4/4, 6/6, 8/8 등) 찾고자 하는 날짜와 가장 가까운 날을 고르고, 해당 날짜와 찾고자 하는 날짜의 차를 구해 모듈로 연산을 합니다 (mod 7, C 언어에선 %7 해서 나오는 값). 해당 값을 세기 기준을에 더하면 날짜가 구해집니다.<br><img src="Doomsday.png" alt="Doomsday_calendar"><br><img src="dooms.png" alt="Doomsday_Memorable_Date"></li>
+</ol>
+<h2 id="해당-년도의-둠스데이-계산하기"><a href="#해당-년도의-둠스데이-계산하기" class="headerlink" title="해당 년도의 둠스데이 계산하기"></a>해당 년도의 둠스데이 계산하기</h2><p>다음 세기들은 해당 기준일을 가집니다.<br>1800~1899 는 <strong>금요일</strong><br>1900~1999 is <strong>수요일</strong><br>2000~2099 is <strong>화요일</strong><br>2100~2199 is <strong>일요일</strong><br>그리고 그 이후 년도들은 금요일, 수요일, 화요일, 일요일 순으로 계속 반복됩니다.</p>
+<p>해당 기준일을 가지고 원하는 년도의 둠스데이를 알아봅시다.<br>예를들어 <strong>2016년 3월 24일</strong> 의 날짜를 구해보겠습니다.</p>
+<ol>
+<li>해당 년도의 끝 2자리 수를 12로 나눕니다. 2016년도는 16을 12로 나눠야 겠죠.<br><code>16을 12로 나누면 1과 나머지 4가 남죠. 여기서 몫을 a 로 나머지를 b라고 하겠습니다.</code></li>
+<li>Divide last two digits of Year with 12 - YYYY -&gt; YY<strong>YY</strong> / <strong>12</strong> -&gt; a…b<br><code>2016-&gt; 16/12 = 1 ... 4 as remainder ( a is 1 and b is 4 )</code></li>
+<li>Divide the remainder with 4 -&gt; <strong><code>b/4</code></strong><br><code>4/4 = 1 (c is 1)</code></li>
+<li>Anchor day can be calculated with list above with YYYY and add a+b+c on the anchor day.<br><code>2016 will be between 2000~2099, Tuesday.</code><br><code>a+b+c = 1 + 4 + 1 = 6</code><br><code>Now add result from 2 on Tuesday. Which will be Tuesday + 6 = Monday.</code><br><code>2016&#39;s doomsday is Monday</code></li>
+</ol>
+<hr>
+<h2 id="Calculate-a-given-date"><a href="#Calculate-a-given-date" class="headerlink" title="Calculate a given date"></a>Calculate a given date</h2><p>Now we know 2016’s doomsday is on <strong>Monday</strong>. Then we can simply calculate the difference in date between doomsday and the day we want to know, to calculate the day.</p>
+<p>Using the example above, 2016 03 24, we know 2016’s doomsday is on Monday and I will use February 29th for my doomsday since it’s a leap year.</p>
+<p>Days until February 29th are 60 days and days until 24th of March is 84 days. Now we can calculate the day with the function I wrote on the program.</p>
+<p><code>dayOfWeek = ((doomsday + DAYS_PER_WEEK) - (DAYS_PER_WEEK + ((daysToEndOfFeb - daysToInputDay) % DAYS_PER_WEEK))) % DAYS_PER_WEEK;</code></p>
+<p> This will give me a day of week with leap year case.</p>
+<p> <code>dayOfWeek = ((4 + 7) - (7 + ((60 - 84) % 7))) % 7;</code><br><code>= ((11) - (7 + (-3))) % 7;</code><br><code>= 7 % 7</code><br><code>= 0</code><br><code>= Thursday</code></p>
+<hr>
+<h2 id="Download-sample-C-file"><a href="#Download-sample-C-file" class="headerlink" title="Download sample C file"></a>Download sample C file</h2><p>You can download sample C file from <strong><em><a href="https://github.com/augusdn/C-Programming/blob/master/doomsday.c" target="_blank" rel="noopener">HERE</a></em></strong></p>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="https://augblogtemp.github.io/2016/03/22/Doomsday-Algorithm/" data-id="cjd8qpuk80002fjcbzuvxpzcn" class="article-share-link"><i class="fa fa-share"></i>공유하기</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+</article>
+
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    
+    </section>
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>팔로우:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/augusdn" target="_blank">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2016/07/21/HTC-Vive/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">다음글</strong>
+        <p class="article-nav-title">
+        
+            HTC Vive Unboxing
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/2016/03/08/putty-and-xming/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">이전글</strong>
+        <p class="article-nav-title">putty and xming</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">최근 글</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/02/04/hello-world/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/02/04/hello-world/" class="title">Hello World</a></p>
+                            <p class="item-date"><time datetime="2018-02-04T12:04:20.899Z" itemprop="datePublished">2018-02-04</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/02/04/test/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/02/04/test/" class="title">test</a></p>
+                            <p class="item-date"><time datetime="2018-02-04T11:43:41.000Z" itemprop="datePublished">2018-02-04</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/01/21/hexo-theme/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/thumbnail/hexo_example.jpg)" alt="hexo theme" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Dev/">Dev</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/Dev/Hexo/">Hexo</a></p>
+                            <p class="item-title"><a href="/2018/01/21/hexo-theme/" class="title">hexo theme</a></p>
+                            <p class="item-date"><time datetime="2018-01-21T08:20:33.000Z" itemprop="datePublished">2018-01-21</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/01/11/Make-new-blog-with-GitHub-Page-with-Hexo/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/thumbnail/github_page.jpg)" alt="Make new blog with GitHub Page with Hexo" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Dev/">Dev</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/Dev/Hexo/">Hexo</a></p>
+                            <p class="item-title"><a href="/2018/01/11/Make-new-blog-with-GitHub-Page-with-Hexo/" class="title">Make new blog with GitHub Page with Hexo</a></p>
+                            <p class="item-date"><time datetime="2018-01-11T11:45:48.000Z" itemprop="datePublished">2018-01-11</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/01/11/How-to-fix-Deployer-not-found-git/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/thumbnail/deployer.jpg)" alt="How to fix Deployer not found: git" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Dev/">Dev</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/Dev/Hexo/">Hexo</a></p>
+                            <p class="item-title"><a href="/2018/01/11/How-to-fix-Deployer-not-found-git/" class="title">How to fix Deployer not found: git</a></p>
+                            <p class="item-date"><time datetime="2018-01-11T11:38:51.000Z" itemprop="datePublished">2018-01-11</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">카테고리</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Dev/">Dev</a><span class="category-list-count">6</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Dev/C/">C</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Dev/Hexo/">Hexo</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Dev/Tools/">Tools</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Technology/">Technology</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Technology/Unboxing/">Unboxing</a><span class="category-list-count">1</span></li></ul></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-float">
+        <h3 class="widget-title">태그 클라우드</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/Blog/" style="font-size: 20px;">Blog</a> <a href="/tags/C-언어/" style="font-size: 10px;">C 언어</a> <a href="/tags/Git/" style="font-size: 20px;">Git</a> <a href="/tags/GitHub/" style="font-size: 20px;">GitHub</a> <a href="/tags/HTC-VIVE/" style="font-size: 10px;">HTC-VIVE</a> <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a> <a href="/tags/Node-js/" style="font-size: 20px;">Node.js</a> <a href="/tags/Programming/" style="font-size: 10px;">Programming</a> <a href="/tags/SSH/" style="font-size: 10px;">SSH</a> <a href="/tags/Steam/" style="font-size: 10px;">Steam</a> <a href="/tags/Steam-VR/" style="font-size: 10px;">Steam VR</a> <a href="/tags/VR/" style="font-size: 10px;">VR</a> <a href="/tags/putty/" style="font-size: 10px;">putty</a> <a href="/tags/telnet/" style="font-size: 10px;">telnet</a> <a href="/tags/xming/" style="font-size: 10px;">xming</a> <a href="/tags/둠스데이/" style="font-size: 10px;">둠스데이</a> <a href="/tags/알고리즘/" style="font-size: 10px;">알고리즘</a> <a href="/tags/프로그래밍/" style="font-size: 10px;">프로그래밍</a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">링크</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="https://github.com/augusdn">GitHub</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://augusdn.github.io/">English Site</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2018 Augustine Lee</p>
+                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+        
+    
+    <script>
+    var disqus_shortname = 'augusdn';
+    
+    
+    var disqus_url = 'https://augblogtemp.github.io/2016/03/22/Doomsday-Algorithm/';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>

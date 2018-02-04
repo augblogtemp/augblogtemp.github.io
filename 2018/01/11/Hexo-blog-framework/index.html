@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Hexo, blog framework | Augusdn</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <meta name="keywords" content="Hexo,Blog,GitHub,Node.js,Git" />
+    
+
+    
+        <meta name="description" content="HexoHexo is a fast, simple and powerful blog framework based on Node.js.  Hexo Installation Requirements Install Git Install Node.js Install Hexo     Hexo setup Run Commands    This blog is written i">
+<meta name="keywords" content="Hexo,Blog,GitHub,Node.js,Git">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo, blog framework">
+<meta property="og:url" content="https://augblogtemp.github.io/2018/01/11/Hexo-blog-framework/index.html">
+<meta property="og:site_name" content="Augusdn">
+<meta property="og:description" content="HexoHexo is a fast, simple and powerful blog framework based on Node.js.  Hexo Installation Requirements Install Git Install Node.js Install Hexo     Hexo setup Run Commands    This blog is written i">
+<meta property="og:locale" content="ko">
+<meta property="og:image" content="https://augblogtemp.github.io/images/thumbnail/hexo.jpg">
+<meta property="og:updated_time" content="2018-02-04T12:04:20.899Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo, blog framework">
+<meta name="twitter:description" content="HexoHexo is a fast, simple and powerful blog framework based on Node.js.  Hexo Installation Requirements Install Git Install Node.js Install Hexo     Hexo setup Run Commands    This blog is written i">
+<meta name="twitter:image" content="https://augblogtemp.github.io/images/thumbnail/hexo.jpg">
+    
+
+
+    
+    <link rel="canonical" href="https://augblogtemp.github.io/2018/01/11/hexo-blog-framework/"/>
+
+
+    
+
+    
+        <link rel="icon" href="https://github.com/favicon.ico" />
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/titillium-web/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/libs/jquery/2.0.3/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
+
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                        <h2 class="subtitle-wrap">
+                            <p class="subtitle">Augusdn&#39;s IT Blog</p>
+                        </h2>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                
+                                    <li class="main-nav-list-item" >
+                                        <a class="main-nav-list-link" href="/">홈</a>
+                                    </li>
+                                
+                            
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Dev/">Dev</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Dev/C/">C</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Dev/Hexo/">Hexo</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Dev/Tools/">Tools</a></li></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Technology/">Technology</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Technology/Unboxing/">Unboxing</a></li></ul></li></ul>
+                                    
+                                
+                                    <li class="main-nav-list-item" >
+                                        <a class="main-nav-list-link" href="/about/index.html">About</a>
+                                    </li>
+                                
+                            
+                                
+                                    <li class="main-nav-list-item" >
+                                        <a class="main-nav-list-link" href="/../">Blog in English</a>
+                                    </li>
+                                
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="검색" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '포스트',
+            PAGES: 'Pages',
+            CATEGORIES: '카테고리',
+            TAGS: '태그',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    <a class="page-title-link" href="/categories/Dev/">Dev</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/Dev/Hexo/">Hexo</a>
+    </h1>
+</div>
+                        <div class="main-body-content">
+                            <article id="post-Hexo-blog-framework" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        Hexo, blog framework
+        </h1>
+    
+
+            </header>
+        
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+        <a href="/2018/01/11/Hexo-blog-framework/" class="article-date">
+            <time datetime="2018-01-11T10:34:23.000Z" itemprop="datePublished">2018-01-11</time>
+        </a>
+    </div>
+
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/Blog/">Blog</a>, <a class="tag-link" href="/tags/Git/">Git</a>, <a class="tag-link" href="/tags/GitHub/">GitHub</a>, <a class="tag-link" href="/tags/Hexo/">Hexo</a>, <a class="tag-link" href="/tags/Node-js/">Node.js</a>
+    </div>
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <p><img src="hexo.JPG" alt="hexo"></p>
+<h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><p><strong><em><a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a></em></strong> is a fast, simple and powerful blog framework based on Node.js.</p>
+<ul>
+<li><a href="#Hexo">Hexo</a><ul>
+<li><a href="#Installation">Installation</a><ul>
+<li><a href="#Requirements">Requirements</a><ul>
+<li><a href="#Install-Git">Install Git</a></li>
+<li><a href="#Install-Nodejs">Install Node.js</a></li>
+<li><a href="#Install-Hexo">Install Hexo</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#Hexo-Setup">Hexo setup</a></li>
+<li><a href="#Run">Run</a></li>
+<li><a href="#Commands">Commands</a></li>
+</ul>
+</li>
+</ul>
+<p>This blog is written in <strong>Markdown</strong>, using <strong>Hexo</strong> and <strong>GitHub Pages</strong> due to following reasons.</p>
+<ul>
+<li>Support <a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="noopener"><strong>Markdown</strong></a>, allow you to post easily.</li>
+<li><strong>Free</strong> hosting from <strong>GitHub Pages</strong>.</li>
+<li>Users are able to use a wide variety of <strong>Themes</strong>.</li>
+</ul>
+<hr>
+<h2 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h2><h3 id="Requirements"><a href="#Requirements" class="headerlink" title="Requirements"></a>Requirements</h3><p>Hexo requires couple of things installed on your machine to run.</p>
+<ul>
+<li><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a></li>
+<li><a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a></li>
+</ul>
+<p>If you already installed these, you can skip to <a href="#Install-Hexo">Hexo installation</a></p>
+<h4 id="Install-Git"><a href="#Install-Git" class="headerlink" title="Install Git"></a>Install Git</h4><ul>
+<li>Windows: Download &amp; install <a href="https://git-scm.com/download/win" target="_blank" rel="noopener">git</a>.</li>
+<li>Mac: Install it with <a href="http://mxcl.github.com/homebrew/" target="_blank" rel="noopener">Homebrew</a>, <a href="http://www.macports.org/" target="_blank" rel="noopener">MacPorts</a> or <a href="http://sourceforge.net/projects/git-osx-installer/" target="_blank" rel="noopener">installer</a>.</li>
+<li>Linux (Ubuntu, Debian): <code>sudo apt-get install git-core</code></li>
+<li>Linux (Fedora, Red Hat, CentOS): <code>sudo yum install git-core</code></li>
+</ul>
+<h4 id="Install-Node-js"><a href="#Install-Node-js" class="headerlink" title="Install Node.js"></a>Install Node.js</h4><p>The best way to install Node.js is with <a href="https://github.com/creationix/nvm" target="_blank" rel="noopener">Node Version Manager</a>.<br>Thankfully the creators of nvm provide a simple script that automatically installs nvm:</p>
+<p>cURL:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash</span><br></pre></td></tr></table></figure></p>
+<p>Wget:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash</span><br></pre></td></tr></table></figure></p>
+<p>Once nvm is installed, restart the terminal and run the following command to install Node.js:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ nvm install stable</span><br></pre></td></tr></table></figure></p>
+<p>Alternatively, download and run the <a href="http://nodejs.org/" target="_blank" rel="noopener">installer</a>.</p>
+<h4 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h4><p>Once all the requirements are installed, you can install Hexo with npm:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
+<hr>
+<h2 id="Hexo-setup"><a href="#Hexo-setup" class="headerlink" title="Hexo setup"></a>Hexo setup</h2><p>After installing <strong><em>Hexo</em></strong>, you can set up a new folder for your blog.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;blog_folder_name&gt;</span><br><span class="line">$ <span class="built_in">cd</span> &lt;blog_folder_name&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure></p>
+<p><strong>Result:</strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml   : configuration file <span class="keyword">for</span> blog</span><br><span class="line">├── package.json  : list of packages <span class="keyword">in</span> json format</span><br><span class="line">├── scaffolds 	  : scaffolds folder make you able to <span class="built_in">set</span> up initial seed <span class="keyword">for</span> post or drafts</span><br><span class="line">├── <span class="built_in">source</span> 	  : <span class="built_in">source</span> folder to store markdown files and all other files <span class="keyword">for</span> blogging</span><br><span class="line">|   ├── _drafts 	</span><br><span class="line">|   └── _posts 		</span><br><span class="line">└── themes 	  : folder to store themes, hexo generate blog based on files <span class="keyword">in</span> <span class="built_in">source</span>, and format them with themes</span><br></pre></td></tr></table></figure></p>
+<hr>
+<h2 id="Run"><a href="#Run" class="headerlink" title="Run"></a>Run</h2><p>After installing, you can run local server to test <strong><em>Hexo</em></strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></p>
+<p>You can check your server at <code>localhost:4000</code> (default port: 4000)</p>
+<hr>
+<h2 id="Commands"><a href="#Commands" class="headerlink" title="Commands"></a>Commands</h2><h3 id="New-post"><a href="#New-post" class="headerlink" title="New post"></a>New post</h3><p>Create a new post<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="Generate"><a href="#Generate" class="headerlink" title="Generate"></a>Generate</h3><p>Generate static files<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></p>
+<p>OR<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>OR<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure></p>
+<h3 id="More-Commands"><a href="#More-Commands" class="headerlink" title="More Commands"></a>More Commands</h3><p>You can fine more commands in this <a href="https://hexo.io/docs/commands.html" target="_blank" rel="noopener">Link</a>.</p>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="https://augblogtemp.github.io/2018/01/11/Hexo-blog-framework/" data-id="cjd8qpuku0006fjcb9yd0df12" class="article-share-link"><i class="fa fa-share"></i>공유하기</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+</article>
+
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    
+    </section>
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>팔로우:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/augusdn" target="_blank">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2018/01/11/How-to-fix-Deployer-not-found-git/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">다음글</strong>
+        <p class="article-nav-title">
+        
+            How to fix Deployer not found: git
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/2016/07/21/HTC-Vive/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">이전글</strong>
+        <p class="article-nav-title">HTC Vive Unboxing</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">최근 글</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/02/04/hello-world/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/02/04/hello-world/" class="title">Hello World</a></p>
+                            <p class="item-date"><time datetime="2018-02-04T12:04:20.899Z" itemprop="datePublished">2018-02-04</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/02/04/test/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/02/04/test/" class="title">test</a></p>
+                            <p class="item-date"><time datetime="2018-02-04T11:43:41.000Z" itemprop="datePublished">2018-02-04</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/01/21/hexo-theme/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/thumbnail/hexo_example.jpg)" alt="hexo theme" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Dev/">Dev</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/Dev/Hexo/">Hexo</a></p>
+                            <p class="item-title"><a href="/2018/01/21/hexo-theme/" class="title">hexo theme</a></p>
+                            <p class="item-date"><time datetime="2018-01-21T08:20:33.000Z" itemprop="datePublished">2018-01-21</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/01/11/Make-new-blog-with-GitHub-Page-with-Hexo/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/thumbnail/github_page.jpg)" alt="Make new blog with GitHub Page with Hexo" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Dev/">Dev</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/Dev/Hexo/">Hexo</a></p>
+                            <p class="item-title"><a href="/2018/01/11/Make-new-blog-with-GitHub-Page-with-Hexo/" class="title">Make new blog with GitHub Page with Hexo</a></p>
+                            <p class="item-date"><time datetime="2018-01-11T11:45:48.000Z" itemprop="datePublished">2018-01-11</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/01/11/How-to-fix-Deployer-not-found-git/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/thumbnail/deployer.jpg)" alt="How to fix Deployer not found: git" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Dev/">Dev</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/Dev/Hexo/">Hexo</a></p>
+                            <p class="item-title"><a href="/2018/01/11/How-to-fix-Deployer-not-found-git/" class="title">How to fix Deployer not found: git</a></p>
+                            <p class="item-date"><time datetime="2018-01-11T11:38:51.000Z" itemprop="datePublished">2018-01-11</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">카테고리</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Dev/">Dev</a><span class="category-list-count">6</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Dev/C/">C</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Dev/Hexo/">Hexo</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Dev/Tools/">Tools</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Technology/">Technology</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Technology/Unboxing/">Unboxing</a><span class="category-list-count">1</span></li></ul></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-float">
+        <h3 class="widget-title">태그 클라우드</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/Blog/" style="font-size: 20px;">Blog</a> <a href="/tags/C-언어/" style="font-size: 10px;">C 언어</a> <a href="/tags/Git/" style="font-size: 20px;">Git</a> <a href="/tags/GitHub/" style="font-size: 20px;">GitHub</a> <a href="/tags/HTC-VIVE/" style="font-size: 10px;">HTC-VIVE</a> <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a> <a href="/tags/Node-js/" style="font-size: 20px;">Node.js</a> <a href="/tags/Programming/" style="font-size: 10px;">Programming</a> <a href="/tags/SSH/" style="font-size: 10px;">SSH</a> <a href="/tags/Steam/" style="font-size: 10px;">Steam</a> <a href="/tags/Steam-VR/" style="font-size: 10px;">Steam VR</a> <a href="/tags/VR/" style="font-size: 10px;">VR</a> <a href="/tags/putty/" style="font-size: 10px;">putty</a> <a href="/tags/telnet/" style="font-size: 10px;">telnet</a> <a href="/tags/xming/" style="font-size: 10px;">xming</a> <a href="/tags/둠스데이/" style="font-size: 10px;">둠스데이</a> <a href="/tags/알고리즘/" style="font-size: 10px;">알고리즘</a> <a href="/tags/프로그래밍/" style="font-size: 10px;">프로그래밍</a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">링크</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="https://github.com/augusdn">GitHub</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://augusdn.github.io/">English Site</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2018 Augustine Lee</p>
+                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+        
+    
+    <script>
+    var disqus_shortname = 'augusdn';
+    
+    
+    var disqus_url = 'https://augblogtemp.github.io/2018/01/11/Hexo-blog-framework/';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>
